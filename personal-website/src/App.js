@@ -8,6 +8,7 @@ import './css/bootstrap.min.css';
 */
 import './css/formats.css';
 import './css/bootstrap.css';
+import './font-awesome/css/font-awesome.css';
 
 import Header from './components/header.js'
 import Navigation from './components/navigation.js'

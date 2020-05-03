@@ -12,14 +12,14 @@ export default class Contact extends Component {
                         </div>
 
                         <div className = "col-md-8 col-md-offset-2">
-                            <div className = "col-md-4"> <i className = "fa fa-envelope-o fa-2x"></i>
-                                <p>cormaccureton@gmail.com</p>
+                            <div className = "col-md-4"> <i className = "fa fa-envelope-o fa-3x"></i>
+                                <p><a href = "mailto: cormaccureton@gmail.com" target="_blank">cormaccureton@gmail.com</a></p>
                             </div>
-                            <div className = "col-md-4"> <i className = "linked-in-icon"></i>
-                                <p>linked in link</p>
+                            <div className = "col-md-4"> <i className =  "fa fa-linkedin-square fa-3x"></i>
+                                <p><a href ="https://www.linkedin.com/in/cormaccureton/" target="_blank">linkedin.com/in/cormaccureton/</a></p>
                             </div>
-                            <div className = "col-md-4"> <i className = "github-icon"></i>
-                                <p>github</p>
+                            <div className = "col-md-4"> <i className = "fa fa-github-square fa-3x"></i>
+                                <p><a href ="https://github.com/Cormac-C" target="_blank">github.com/Cormac-C</a></p>
                             </div>
                         </div>
                     </div>
