@@ -4,7 +4,7 @@ export default class Projects extends Component {
     render(){
         return(
             <div>
-                <div id = "Projects">
+                <div id = "projects">
                     <div className = "section-title text-center center">
                         <h2>Projects</h2>
                         <hr />

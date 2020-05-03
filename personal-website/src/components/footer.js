@@ -5,7 +5,7 @@ export default class Footer extends Component {
         return(
             <div>
                 <div id = "footer">
-                    <p>Not sure about Copyright &copy; Cormc Cureton.</p>
+                    <p>Not sure about Copyright &copy; Cormac Cureton.</p>
                 </div>                
             </div>
         )

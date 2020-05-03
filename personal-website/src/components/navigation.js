@@ -5,22 +5,18 @@ export default class Header extends Component {
         return(
             <div>
                 <div id = "nav">
-                    <nav className = "navbar navbar-custom">
+                    <nav className = "navbar-custom">
                         <div className = "container">
                             <div className = "navbar-header">
                                 <button type = "button" className = "navbar-toggle" data-toggle = "collapse" data-targets = ".navbar-main-collapse"> <i className = "fa fa-bars"></i></button>
-                                <a className = "navbar-brand page-scroll" href = "#page-top">Cormac Cureton</a> 
+                                <a className = "navbar-brand page-scroll" href = "#header">Cormac Cureton</a> 
                             </div>
 
                             <div className = "collapse navbar-collapse navbar-right navbar-main-collapse">
                                 <ul className = "nav navbar-nav">
-                                    <li className = "hidden"> <a href="#page-top"></a> </li>
                                     <li> <a className = "page-scroll" href="#about"> About</a> </li>
-                                    <li> <a className="page-scroll" href="#projects"> Projects</a> </li>
-                                    {/* 
-                                    <li> <a className="page-scroll" href="#resume"> Resume</a> </li>
-                                    <li> <a className="page-scroll" href="#contact"> Contact</a> </li>
-                                    */}    
+                                    <li> <a className= "page-scroll" href="#projects"> Projects</a> </li>
+                                    <li> <a className= "page-scroll" href="#contact"> Contact</a> </li>
                                 </ul>
                             </div>
                         </div>
