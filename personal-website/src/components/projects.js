@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import personalWebsite from '../img/Personal-Website.png'
+import metronomeApp from '../img/Metronome App.jpg'
+import baseballJava from '../img/Baseball-Java.png'
 
 export default class Projects extends Component {
     render(){
@@ -24,9 +26,14 @@ export default class Projects extends Component {
                                         <p className = "h5">
                                             A landing place for all professional sites and place to showcase a portfolio of my personal projects.
                                             <br></br><br></br>
-                                            As well, my introduction to any web development. This site gave me an introduction to React and CSS and a familiarity with the Bootstrap framework.
-                                            I started from an HTML + CSS template then adopted it to react, modified the site and CSS from there. 
-                                            In future, I would probably look for a pure Bootstrap template to start or build from scratch.
+                                            I built this site with React and CSS using the BootStrap Framework. Started with a HTML + CSS template then
+                                            adapted it to React and modified the content, layout, and styling.
+                                            <br></br><br></br>
+                                            Take a look at the final product
+                                            <a className = "page-scroll" href = "#header"> here </a>
+                                            or look at the  
+                                            <a href ="https://github.com/Cormac-C/Personal-Website" target="_blank"> code </a>
+                                            behind the scenes
                                         </p>
                                     </div>
                                 </div>
@@ -48,18 +55,56 @@ export default class Projects extends Component {
                                 <div className = "col-md-4">
                                     <div className = "project-text">
                                         <p className = "h5">
-                                            An android app with the features I want blah blah blah.
+                                            A Metronome app with tap-tempo functionality. The tempo (speed) is calculated based on the spacing between a user tapping on a button.
                                             <br></br><br></br>
-                                            Android studio java backend etc. multi-threading...
+                                            I had written the main functionality as a Java applet with a Swing GUI. I adapted it to an Android App using Android Studio as an oppurtunity to learn about mobile development.
+                                            Note: This project is still in progress, I am working on handling the audio in a separate thread so that the UI stays responsive while audio plays.
+                                            <br></br><br></br>
+                                            Take a look at the 
+                                            <a href ="https://github.com/Cormac-C/Metronome-App" target="_blank"> code </a>
+                                            in progress, final product will be added once I reach my minimum viable product.
                                         </p>
                                     </div>
                                 </div>
                                 <div className = "col-md-5">
-                                    <img src = {personalWebsite} class = "img-responsive" alt = "Website Screenshot"/>
+                                    <div className = "project-image">
+                                        <img src = {metronomeApp} class = "img-responsive" alt = "Android Application Screenshot"/>
+                                    </div>    
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    <div className = "card-colour-a">
+                        <div className = "container">
+                            <div className = "row">
+                                <div className = "col-md-3">
+                                    <p className = "project-title">
+                                        Baseball Team Manager
+                                    </p>
+                                </div>
+                                <div className = "col-md-4">
+                                    <div className = "project-text">
+                                        <p className = "h5">
+                                            A Baseball Management program which tracks a roster of players, their statistics, and makes data driven lineup recommendations.
+                                            <br></br><br></br>
+                                            I built this program with Java using Object Oriented Programming techniques including inheiritance and polymorphism.
+                                            The program also supports reading and writing to a csv in order to save information.
+                                            <br></br><br></br>
+                                            Take a look at the
+                                            <a href ="https://github.com/Cormac-C/Baseball-Team-Manager" target="_blank"> code here</a>
+                                            .
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className = "col-md-5">
+                                    <img src = {baseballJava} class = "img-responsive" alt = "Java App Output"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
                 </div>
             </div>
         )
