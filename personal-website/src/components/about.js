@@ -21,7 +21,7 @@ export default class About extends Component {
                                     <a className= "page-scroll" href="#projects"> here</a>.</p>
                                 <p>You might also find me playing guitar, going for a run, or playing baseball or squash.</p>
                                 <p>To discuss my experience, take a look at a resume, or chat for any reason, don't hesitate to  
-                                    <a className= "page-scroll" href="#projects"> get in touch</a>.</p>    
+                                    <a className= "page-scroll" href="#contact"> get in touch</a>.</p>    
                                 
                                 <p className = "text-center"><a className = "btn btn-primary" href = "#contact"><i class = "fa fa-comments"></i> Reach Out</a></p>
 
