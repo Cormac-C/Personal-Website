@@ -246,6 +246,12 @@ div #footer{
 	max-height: 80%;
 }
 
+@media (min-width: 400px){
+	#contact .col-md-4{
+		float: left;
+		width: 33.33333333%;
+	}
+}
 i{
 	color: #0A2239;
 	
