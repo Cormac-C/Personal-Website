@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
+import ReactGA from 'react-ga';
 import personalWebsite from '../img/Personal-Website.png'
 import metronomeApp from '../img/Metronome App.jpg'
 import baseballJava from '../img/Baseball-Java.png'
 
 export default class Projects extends Component {
     render(){
-        ReactGA.pageview(window.location.pathname + window.location.search);
+        ReactGA.pageview(window.location.pathname + window.location.href);
         return(
             <div>
                 <div id = "projects">

@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
+import ReactGA from 'react-ga';
 
 export default class About extends Component {
     render(){
-        ReactGA.pageview(window.location.pathname + window.location.search);
+        ReactGA.pageview(window.location.pathname + window.location.href);
         return(
             <div>
                 <div id = "about">

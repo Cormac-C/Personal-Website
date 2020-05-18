@@ -22,7 +22,7 @@ import Footer from './components/footer.js'
 class App extends Component{
   render() {
     ReactGA.initialize("UA-166947896-1");
-    ReactGA.pageview(window.location.pathname + window.location.search);
+    ReactGA.pageview(window.location.pathname + "Main");
     return (
       <div id="personal-website-main-page">
           <div id="container-wrap">
