@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 export default class About extends Component {
     render(){
+        ReactGA.pageview(window.location.pathname + window.location.search);
         return(
             <div>
                 <div id = "about">

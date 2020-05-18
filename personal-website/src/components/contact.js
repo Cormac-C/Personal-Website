@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 export default class Contact extends Component {
     render(){
+        ReactGA.pageview(window.location.pathname + window.location.search);
         return(
             <div>
                 <div id = "contact" className = "text-center">

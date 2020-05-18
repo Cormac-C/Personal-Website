@@ -5,6 +5,7 @@ import baseballJava from '../img/Baseball-Java.png'
 
 export default class Projects extends Component {
     render(){
+        ReactGA.pageview(window.location.pathname + window.location.search);
         return(
             <div>
                 <div id = "projects">

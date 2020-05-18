@@ -3,6 +3,7 @@ import profilePhoto from '../img/face.jpg'
 
 export default class Header extends Component {
     render(){
+        ReactGA.pageview(window.location.pathname + window.location.search);
         return(
             <div>
                 <header id = "header">
