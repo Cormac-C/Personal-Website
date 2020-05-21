@@ -1,13 +1,11 @@
 import React, { Component } from 'react'
-import ReactGA from 'react-ga';
+import {LogEvent} from '../js/gAnalytics'
 import personalWebsite from '../img/Personal-Website.png'
 import metronomeApp from '../img/Metronome App.jpg'
 import baseballJava from '../img/Baseball-Java.png'
 
 export default class Projects extends Component {
     render(){
-        //Only makes another pageview if a user refreshes the page with the href in the url
-        ReactGA.pageview(window.location.pathname + window.location.href);
         return(
             <div>
                 <div id = "projects">
@@ -33,9 +31,9 @@ export default class Projects extends Component {
                                             adapted it to React and modified the content, layout, and styling.
                                             <br></br><br></br>
                                             Take a look at the final product
-                                            <a className = "page-scroll" href = "#header"> here </a>
+                                            <a className = "page-scroll" href = "#header" onClick={ () => LogEvent("Navigation", "Scroll from Projects", "Top of Page")}> here </a>
                                             or look at the  
-                                            <a href ="https://github.com/Cormac-C/Personal-Website" target="_blank" rel = "noopener noreferrer"> code </a>
+                                            <a href ="https://github.com/Cormac-C/Personal-Website" target="_blank" rel = "noopener noreferrer" onClick={ () => LogEvent("Navigation", "Link from Projects", "Personal Website Code")}> code </a>
                                             behind the scenes
                                         </p>
                                     </div>
@@ -64,7 +62,7 @@ export default class Projects extends Component {
                                             Note: This project is still in progress, I am working on handling the audio in a separate thread so that the UI stays responsive while audio plays.
                                             <br></br><br></br>
                                             Take a look at the 
-                                            <a href ="https://github.com/Cormac-C/Metronome-App" target="_blank" rel = "noopener noreferrer"> code </a>
+                                            <a href ="https://github.com/Cormac-C/Metronome-App" target="_blank" rel = "noopener noreferrer" onClick={ () => LogEvent("Navigation", "Link from Projects", "Android app code")}> code </a>
                                             in progress, final product will be added once I reach my minimum viable product.
                                         </p>
                                     </div>
@@ -95,7 +93,7 @@ export default class Projects extends Component {
                                             The program also supports reading and writing to a csv in order to save information.
                                             <br></br><br></br>
                                             Take a look at the
-                                            <a href ="https://github.com/Cormac-C/Baseball-Team-Manager" target="_blank" rel = "noopener noreferrer"> code here</a>
+                                            <a href ="https://github.com/Cormac-C/Baseball-Team-Manager" target="_blank" rel = "noopener noreferrer" onClick={ () => LogEvent("Navigation", "Link from Projects", "Baseball Code")}> code here</a>
                                             .
                                         </p>
                                     </div>
@@ -106,8 +104,6 @@ export default class Projects extends Component {
                             </div>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         )

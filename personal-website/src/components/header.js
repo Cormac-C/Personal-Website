@@ -1,11 +1,8 @@
 import React, { Component } from 'react'
-import ReactGA from 'react-ga';
 import profilePhoto from '../img/face.jpg'
 
 export default class Header extends Component {
     render(){
-        //Only makes another pageview if a user refreshes the page with the href in the url
-        ReactGA.pageview(window.location.pathname + window.location.href);
         return(
             <div>
                 <header id = "header">

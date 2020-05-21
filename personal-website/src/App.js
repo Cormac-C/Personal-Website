@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import ReactGA from 'react-ga';
 
+import {LogPage} from './js/gAnalytics.js';
+
 import './css/formats.css';
 import './css/bootstrap.css';
 import './font-awesome/css/font-awesome.css';
@@ -16,7 +18,8 @@ class App extends Component{
   render() {
     //Records the google analytics page view when the page loads
     ReactGA.initialize("UA-166947896-1");
-    ReactGA.pageview(window.location.pathname + "Main");
+    //ReactGA.pageview(window.location.pathname + "Main");
+    LogPage();
     return (
       <div id="personal-website-main-page">
           <div id="container-wrap">
