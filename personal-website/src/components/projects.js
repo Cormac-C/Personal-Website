@@ -34,13 +34,13 @@ export default class Projects extends Component {
                                             Take a look at the final product
                                             <a className = "page-scroll" href = "#header"> here </a>
                                             or look at the  
-                                            <a href ="https://github.com/Cormac-C/Personal-Website" target="_blank"> code </a>
+                                            <a href ="https://github.com/Cormac-C/Personal-Website" target="_blank" rel = "noopener noreferrer"> code </a>
                                             behind the scenes
                                         </p>
                                     </div>
                                 </div>
                                 <div className = "col-md-5">
-                                    <img src = {personalWebsite} class = "img-responsive" alt = "Website Screenshot"/>
+                                    <img src = {personalWebsite} className = "img-responsive" alt = "Website Screenshot"/>
                                 </div>
                             </div>
                         </div>
@@ -63,14 +63,14 @@ export default class Projects extends Component {
                                             Note: This project is still in progress, I am working on handling the audio in a separate thread so that the UI stays responsive while audio plays.
                                             <br></br><br></br>
                                             Take a look at the 
-                                            <a href ="https://github.com/Cormac-C/Metronome-App" target="_blank"> code </a>
+                                            <a href ="https://github.com/Cormac-C/Metronome-App" target="_blank" rel = "noopener noreferrer"> code </a>
                                             in progress, final product will be added once I reach my minimum viable product.
                                         </p>
                                     </div>
                                 </div>
                                 <div className = "col-md-5">
                                     <div className = "project-image">
-                                        <img src = {metronomeApp} class = "img-responsive" alt = "Android Application Screenshot"/>
+                                        <img src = {metronomeApp} className = "img-responsive" alt = "Android Application Screenshot"/>
                                     </div>    
                                 </div>
                             </div>
@@ -94,13 +94,13 @@ export default class Projects extends Component {
                                             The program also supports reading and writing to a csv in order to save information.
                                             <br></br><br></br>
                                             Take a look at the
-                                            <a href ="https://github.com/Cormac-C/Baseball-Team-Manager" target="_blank"> code here</a>
+                                            <a href ="https://github.com/Cormac-C/Baseball-Team-Manager" target="_blank" rel = "noopener noreferrer"> code here</a>
                                             .
                                         </p>
                                     </div>
                                 </div>
                                 <div className = "col-md-5">
-                                    <img src = {baseballJava} class = "img-responsive" alt = "Java App Output"/>
+                                    <img src = {baseballJava} className = "img-responsive" alt = "Java App Output"/>
                                 </div>
                             </div>
                         </div>

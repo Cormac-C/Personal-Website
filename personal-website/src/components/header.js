@@ -13,7 +13,7 @@ export default class Header extends Component {
                             <div className = "row">
                                 <div className = "col-lg-8">
                                     <div className = "intro-text">
-                                        <h1>Hi, I'm <span class = "name"> Cormac Cureton</span></h1>
+                                        <h1>Hi, I'm <span className = "name"> Cormac Cureton</span></h1>
                                         <h3>Systems Design Engineering Student</h3>
                                         <p> 
                                             Learning, Designing, and Developing

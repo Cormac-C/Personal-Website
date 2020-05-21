@@ -13,8 +13,8 @@ export default class About extends Component {
                     </div>
 
                     <div className = "row">
-                        <div class = "col-md-8 col-md-offset-2">
-                            <div class = "about-text">
+                        <div className = "col-md-8 col-md-offset-2">
+                            <div className = "about-text">
                                 <p> I'm passionate about solving real-world problems with technology. <br></br>
                                     I combine technical skills with a strong user-centred design perspective to build innovative solutions.</p>
                                 <p> Some languages that I’ve used are Java, C++, JavaScript, and CSS. <br></br>
@@ -25,7 +25,7 @@ export default class About extends Component {
                                 <p>To discuss my experience, take a look at a resume, or chat for any reason, don't hesitate to  
                                     <a className= "page-scroll" href="#contact"> get in touch</a>.</p>    
                                 
-                                <p className = "text-center"><a className = "btn btn-primary" href = "#contact"><i class = "fa fa-comments"></i> Reach Out</a></p>
+                                <p className = "text-center"><a className = "btn btn-primary" href = "#contact"><i className = "fa fa-comments"></i> Reach Out</a></p>
 
                             </div>
                         </div>
