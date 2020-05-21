@@ -6,6 +6,7 @@ import baseballJava from '../img/Baseball-Java.png'
 
 export default class Projects extends Component {
     render(){
+        //Only makes another pageview if a user refreshes the page with the href in the url
         ReactGA.pageview(window.location.pathname + window.location.href);
         return(
             <div>

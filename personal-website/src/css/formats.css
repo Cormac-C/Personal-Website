@@ -1,3 +1,5 @@
+/* Contains pieces of CSS where the website should not follow stock CSS */
+
 body, html {
 	font-family: 'Open Sans', sans-serif;
 	text-rendering: optimizeLegibility !important;
@@ -12,7 +14,12 @@ h1 {
 	font-weight: 700;
 }
 
-/* Navigation */
+i{
+	color: #0A2239;
+	
+}
+
+/* Navigation exceptions to Bootstrap*/
 #nav {
 	z-index: 9999;
 }
@@ -79,6 +86,8 @@ h1 {
 .navbar-custom .nav li.active a:hover {
 	color: #fff;
 }
+
+/* Intro / Header exceptions to Bootstrap */
 
 p.intro {
 	font-size: 16px;
@@ -159,6 +168,8 @@ header .row {
 	height: auto;
 }
 
+/* About exceptions to Bootstrap */
+
 .about-text{
 	font-size: 18px;
 }
@@ -167,6 +178,31 @@ header .row {
 	/* padding: 8px 16px; */
 	font-size: 18px;
 	border: 2px solid transparent;
+}
+
+.about-text i{
+	color: #ffffff;
+}
+
+/* Project exceptions to Bootstrap */
+
+p.project-title{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	font-size: 24px;
+	font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+.project-image{
+	height: 400px;
+	margin: 0 auto;
+}
+
+.project-image img{
+	max-height: 80%;
 }
 
 .container {
@@ -192,17 +228,6 @@ header .row {
 	line-height: 20px;
 } 
 
-p.project-title{
-	margin-top: 5%;
-	margin-bottom: 5%;
-	font-size: 24px;
-	font-family: inherit;
-    font-weight: 500;
-    line-height: 1.1;
-    color: inherit;
-}
-
-
 .col-md-3, .col-md-4, .col-md-5{
 	display: flex;
 	flex-direction: column;
@@ -215,8 +240,20 @@ p.project-title{
 	}
 }
 
+img.img-responsive {
+	margin-top: 10%;
+    margin-bottom: 10%;
+}
 
+/* Contact exceptions to Bootstrap */
+@media (min-width: 350px){
+	#contact .col-md-4{
+		float: left;
+		width: 33.33333333%;
+	}
+}
 
+/* Footer exceptions to Bootstrap */
 .footerText p{
 	color: #656c6deb;
 	font-size: 12px;
@@ -224,35 +261,11 @@ p.project-title{
 	text-align: center;
 }
 
-.about-text i{
-	color: #ffffff;
-}
-
-img.img-responsive {
-	margin-top: 10%;
-    margin-bottom: 10%;
-}
-
 div #footer{
 	padding-top: 30px;
 }
 
-.project-image{
-	height: 400px;
-	margin: 0 auto;
-}
 
-.project-image img{
-	max-height: 80%;
-}
 
-@media (min-width: 400px){
-	#contact .col-md-4{
-		float: left;
-		width: 33.33333333%;
-	}
-}
-i{
-	color: #0A2239;
-	
-}
+
+

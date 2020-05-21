@@ -1,11 +1,4 @@
 import React, { Component } from 'react';
-/*
-import './css/style.css';
-import './css/index.css';
-import './css/prettyPhoto.css';
-import './css/bootstrap.css';
-import './css/bootstrap.min.css';
-*/
 import ReactGA from 'react-ga';
 
 import './css/formats.css';
@@ -21,6 +14,7 @@ import Footer from './components/footer.js'
 
 class App extends Component{
   render() {
+    //Records the google analytics page view when the page loads
     ReactGA.initialize("UA-166947896-1");
     ReactGA.pageview(window.location.pathname + "Main");
     return (
