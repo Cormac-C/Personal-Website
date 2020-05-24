@@ -15,7 +15,7 @@ export default class About extends Component {
                         <div className = "col-md-8 col-md-offset-2">
                             <div className = "about-text">
                                 <p> I'm passionate about solving real-world problems with technology. <br></br>
-                                    I combine technical skills with a strong user-centred design perspective to build innovative solutions.</p>
+                                    I combine technical skills with a strong user-centered design perspective to build innovative solutions.</p>
                                 <p> Some languages that I’ve used are Java, C++, JavaScript, and CSS. <br></br>
                                     Some other technologies I’ve explored are React, Git, Android Studio, Bootstrap, and Solidworks. </p>
                                 <p> Take a look at what I’ve built with these in the past
